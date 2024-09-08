@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmsbxSm-9IKrCVj24vL_J20Wmhfm3F-HXIOQ&s);
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f960;
+    border: 1px solid #82b3a083;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 34, 9, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #263b33;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #075737;
+}
+
+
+#resume-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0ff6ad;
+    border: 1px solid #151010;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    margin-top: 0;
+}
+
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resume-section li {
+    margin-bottom: 10px;
+}
+
+.resume-section li::before {
+    content: "\2022";
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-right: 10px;
+}

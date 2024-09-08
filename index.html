@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="indexstyles.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+    <form id="resume-form">
+        <!-- Personal Information -->
+        <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <!-- Education -->
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree"><br><br>
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution"><br><br>
+        <label for="graduation-date">Date of Graduation:</label>
+        <input type="date" id="graduation-date" name="graduation-date"><br><br>
+
+        <!-- Work Experience -->
+        <h2>Work Experience</h2>
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title"><br><br>
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company"><br><br>
+        <label for="employment-date">Date of Employment:</label>
+        <input type="date" id="employment-date" name="employment-date"><br><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br><br>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <label for="skill">Skill:</label>
+        <input type="text" id="skill" name="skill"><br><br>
+
+        <button id="generate-resume">Generate Resume</button>
+    </form>
+
+    <!-- Resume container -->
+    <div id="resume-container"></div>
+
+    <script src="indexscript.js"></script>
+</body>
+</html>
